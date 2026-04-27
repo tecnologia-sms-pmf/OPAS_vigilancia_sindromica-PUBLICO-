@@ -1,0 +1,10 @@
+[db_opas]
+host = "seu_ip"
+port = 3306
+user = "root"
+password = "sua_senha"
+db_name = "opas_vigilancia_sindromica"
+
+[llm]
+url = "seu_ip"
+nome_modelo = "qwen2.5:14b-instruct"
