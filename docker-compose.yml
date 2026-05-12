@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app-vigilancia:
+    build: .
+    container_name: vig_sindromica_opas
+    network_mode: "host"
+    restart: always
+    volumes:
+      - ./config.toml:/app/config.toml
